@@ -1,4 +1,5 @@
 # read whole data
+library(data.table)
 dat = fread('./household_power_consumption.txt', na.strings='?')
 
 
